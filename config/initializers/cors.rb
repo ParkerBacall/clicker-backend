@@ -7,9 +7,9 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://clickboi12.firebaseapp.com/'
+    Origin: 'https://clickboi12.firebaseapp.com/'
 
-    resource '*',
+    resource 'https://clickboi12.firebaseapp.com/',
       headers: :any,
       methods: [:get, :post, :put, :patch, :delete, :options, :head]
   end
