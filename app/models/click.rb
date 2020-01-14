@@ -1,2 +1,3 @@
 class Click < ApplicationRecord
+
 end
